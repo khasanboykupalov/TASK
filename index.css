@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+th {
+  background-color: #eee;
+}
+
+.solved {
+  color: rgb(81, 156, 81);
+}
+
+.attempCount {
+  color: rgb(233, 69, 69);
+}
+
+.tag {
+  background-color: rgb(81, 156, 81);
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  border: none;
+  padding: 5px 10px;
+}
+
+.container {
+  margin: 20px;
+}
+.pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px 20px 20px;
+}
+
+.pagination-child {
+  display: flex;
+  gap: 30px;
+}
+
+.pagination button {
+  border-radius: 60px;
+  padding: 5px 20px;
+  background-color: rgb(81, 156, 81);
+  border: none;
+  color: #fff;
+}
+
+.pagination span {
+  border-radius: 50px;
+  background-color: #e2e0e0;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: rgb(81, 156, 81);
+  font-size: 20px;
+}
+
+#searchbar {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 20%;
+  box-sizing: border-box;
+}
+
+.disabled-btn {
+  background-color: transparent !important;
+  color: transparent !important;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
